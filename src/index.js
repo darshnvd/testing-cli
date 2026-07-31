@@ -29,7 +29,7 @@ Examples:
   greet: () => {
     const nameIndex = args.indexOf('--name');
     const name = nameIndex !== -1 && args[nameIndex + 1] ? args[nameIndex + 1] : 'World';
-    console.log(`Hello, ${name}! Welcome to testing-cli.`);
+    console.log(`Hello, ${name}! Welcome to testing-cli. Have a great day!`);
   },
 };
 
