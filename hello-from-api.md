@@ -1,0 +1,1 @@
+# Hello from gh api\n\nThis file was pushed directly using the GitHub Git Data API via `gh api` — no git CLI was used!\n\nPushed on: July 31, 2026\n
