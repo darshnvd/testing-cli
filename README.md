@@ -13,7 +13,16 @@ cd testing-cli
 
 ## Usage
 
-More details coming soon!
+```bash
+# Run the CLI tool
+./testing-cli --help
+```
+
+## Features
+
+- Lightweight and fast
+- Easy to extend
+- Cross-platform support
 
 ## Contributing
 
