@@ -15,6 +15,13 @@ cd testing-cli
 
 More details coming soon!
 
+## Support
+
+If you run into any issues or have questions:
+
+- 🐛 [Open an issue](https://github.com/darshnvd/testing-cli/issues) for bug reports
+- 💬 [Start a discussion](https://github.com/darshnvd/testing-cli/discussions) for questions and ideas
+
 ## Contributing
 
 Feel free to open issues or submit pull requests.
