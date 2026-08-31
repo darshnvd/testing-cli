@@ -29,11 +29,12 @@ testing-cli <command>
 
 ### Available Commands
 
-| Command   | Description                |
-|-----------|----------------------------|
-| `help`    | Show the help message      |
-| `version` | Show the current version   |
-| `greet`   | Greet the user             |
+| Command   | Description                    |
+|-----------|--------------------------------|
+| `help`    | Show the help message          |
+| `version` | Show the current version       |
+| `greet`   | Greet the user                 |
+| `joke`    | Tell a random programming joke |
 
 ### Examples
 
@@ -41,6 +42,7 @@ testing-cli <command>
 testing-cli help
 testing-cli version
 testing-cli greet --name "Alice"
+testing-cli joke
 ```
 
 ## Contributing
