@@ -15,11 +15,13 @@ Commands:
   help      Show this help message
   version   Show the current version
   greet     Greet the user
+  time      Show the current date and time
 
 Examples:
   testing-cli help
   testing-cli version
   testing-cli greet --name "World"
+  testing-cli time
     `);
   },
   version: () => {
@@ -30,6 +32,9 @@ Examples:
     const nameIndex = args.indexOf('--name');
     const name = nameIndex !== -1 && args[nameIndex + 1] ? args[nameIndex + 1] : 'World';
     console.log(`Hello, ${name}! Welcome to testing-cli. Have a great day!`);
+  },
+  time: () => {
+    console.log(`Current time: ${new Date().toISOString()}`);
   },
 };
 

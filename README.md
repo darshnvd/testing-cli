@@ -34,6 +34,7 @@ testing-cli <command>
 | `help`    | Show the help message      |
 | `version` | Show the current version   |
 | `greet`   | Greet the user             |
+| `time`    | Show the current date/time |
 
 ### Examples
 
@@ -41,6 +42,7 @@ testing-cli <command>
 testing-cli help
 testing-cli version
 testing-cli greet --name "Alice"
+testing-cli time
 ```
 
 ## Contributing
